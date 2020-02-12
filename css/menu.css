@@ -1,0 +1,30 @@
+.menu
+{
+    padding: 20px;
+}
+.menu ul
+{
+    list-style: none;
+    margin: 0;
+}
+.menu li
+{
+    display: inline-block;
+    padding: 2em;
+    width: 100px;
+    text-align: center;
+}
+.menu a
+{
+    font-size: 20px;
+    text-decoration: none;
+}
+.header__logo
+{
+    width: 15%;
+    float: left;
+}
+.menu li:nth-of-type(odd)
+{
+    background-color: #c5e0b3
+}
