@@ -1,0 +1,14 @@
+.about
+{
+    background-color: #375623;
+    height: 400px;
+    width: 100%;
+    margin: 150px 0;
+}
+.about__filler
+{
+    width: 20%;
+    position: relative;
+    top: -20px;
+    left: 40px;
+}
