@@ -1,12 +1,17 @@
 .product-container {
+    margin: 150px auto;
     display: flex;
     background-color: black;
-    width: fit-content;
+    width: 80%;
 }
 .product-item {
     background-color: #f1f1f1;
-    margin: 10px;
-    padding: 200px 10%;
+    margin: 15px auto;
+    padding: 200px 130px;
     font-size: 30px;
-    width: 100px;
+}
+.product-price {
+    background-color: white;
+    opacity: .5;
+    
 }
