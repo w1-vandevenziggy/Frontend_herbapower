@@ -1,10 +1,12 @@
 .product-container {
     display: flex;
     background-color: black;
+    width: fit-content;
 }
 .product-item {
     background-color: #f1f1f1;
     margin: 10px;
     padding: 200px 10%;
     font-size: 30px;
+    width: 100px;
 }
