@@ -48,6 +48,10 @@ body
     body {
         background-color: black;
     }
+    .menu ul
+    {
+        padding: 0;
+    }
     .menu a
     {
         display: block;
