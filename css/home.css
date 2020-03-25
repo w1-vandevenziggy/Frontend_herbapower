@@ -23,8 +23,8 @@
 /* Mobile M */
 @media only screen and (min-width: 375px) 
 {
-    body {
-        background-color: black;
+    .about_textBlock {
+        
     }
 }
 
