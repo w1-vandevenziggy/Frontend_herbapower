@@ -51,6 +51,7 @@ body
     .menu ul
     {
         padding: 0;
+        width: 100px;
     }
     .menu a
     {
@@ -60,6 +61,12 @@ body
     {
         float: left;
     }
+
+    .menu a:nth-of-type(even)
+    {
+        background-color: #A8D08D;
+    }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
