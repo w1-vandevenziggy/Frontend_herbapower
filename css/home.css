@@ -20,35 +20,69 @@
 }
 
 /* mediaqueries */
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) 
+/* Mobile M */
+@media only screen and (min-width: 375px) 
 {
-    .about_textBlock {
-        
+    .about
+    {
+        background-color: #375623;
+        height: 800px;
+        width: 100%;
+        margin: 150px 0;
     }
+    .about_textBlock { 
+        padding: 20px;
+        color: white;
 
+    }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) 
+/* Mobile L */
+@media only screen and (min-width: 425px) 
 {
+    .about
+    {
+        background-color: #375623;
+        height: 750px;
+        width: 100%;
+        margin: 150px 0;
+    }
+    .about_textBlock {
+        padding: 20px;
+        color: white;
 
+    }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Tablet */
 @media only screen and (min-width: 768px) 
 {
+    .about
+    {
+        background-color: #375623;
+        height: 500px;
+        width: 100%;
+        margin: 150px 0;
+    }
+    .about_textBlock {
+        padding: 20px;
+        color: white;
 
+    }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) 
+/* Laptop */
+@media only screen and (min-width: 1024px) 
 {
+    .about
+    {
+        background-color: #375623;
+        height: 450px;
+        width: 100%;
+        margin: 150px 0;
+    }
+    .about_textBlock {
+        padding: 20px;
+        color: white;
 
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) 
-{
-
-}
+    }
