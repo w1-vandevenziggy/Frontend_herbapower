@@ -20,34 +20,35 @@
 }
 
 /* mediaqueries */
-/* Mobile M */
-@media only screen and (min-width: 375px) 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
 {
     body {
         background-color: black;
     }
+    
 }
 
-/* Mobile L */
-@media only screen and (min-width: 425px) 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
 {
-    body {
-        background-color: blue;
-    }
+
 }
 
-/* Tablet */
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) 
 {
-    body {
-        background-color: purple;
-    }
+
 }
 
-/* Laptop */
-@media only screen and (min-width: 1024px) 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
 {
-    body {
-        background-color: green;
-    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+
 }
