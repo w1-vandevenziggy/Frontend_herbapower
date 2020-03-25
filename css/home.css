@@ -23,31 +23,67 @@
 /* Mobile M */
 @media only screen and (min-width: 375px) 
 {
+    .about
+    {
+        background-color: #375623;
+        height: 800px;
+        width: 100%;
+        margin: 150px 0;
+    }
     .about_textBlock {
-        
+        padding: 20px;
+        color: white;
+
     }
 }
 
 /* Mobile L */
 @media only screen and (min-width: 425px) 
 {
-    body {
-        background-color: blue;
+    .about
+    {
+        background-color: #375623;
+        height: 750px;
+        width: 100%;
+        margin: 150px 0;
+    }
+    .about_textBlock {
+        padding: 20px;
+        color: white;
+
     }
 }
 
 /* Tablet */
 @media only screen and (min-width: 768px) 
 {
-    body {
-        background-color: purple;
+    .about
+    {
+        background-color: #375623;
+        height: 500px;
+        width: 100%;
+        margin: 150px 0;
+    }
+    .about_textBlock {
+        padding: 20px;
+        color: white;
+
     }
 }
 
 /* Laptop */
 @media only screen and (min-width: 1024px) 
 {
-    body {
-        background-color: green;
+    .about
+    {
+        background-color: #375623;
+        height: 450px;
+        width: 100%;
+        margin: 150px 0;
+    }
+    .about_textBlock {
+        padding: 20px;
+        color: white;
+
     }
 }
