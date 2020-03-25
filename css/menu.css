@@ -43,10 +43,41 @@ body
 
 /* Mobile M Mediaquery */
 
-@media screen and (min-width: 375px) and (max-width: 400px)
+@media only screen and (max-width: 600px) 
 {
-    body
-    {
-        background-color: red;
+    body {
+        background-color: black;
     }
+    .menu a
+    {
+        display: block;
+    }
+    .menu__cart
+    {
+        float: left;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+
 }
