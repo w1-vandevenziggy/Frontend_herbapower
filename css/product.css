@@ -1,5 +1,5 @@
 .product-container {
-    margin: 100px auto;
+    margin: 160px auto;
     display: flex;
     background-color: black;
     width: 85%;
@@ -8,15 +8,15 @@
     background-color: #f1f1f1;
     margin: 10px auto;
     width: 23%;
-    height: 320px;
+    height: 550px;
     font-size: 30px;
 }
 .product-image {
-    width: 245px;
+    width: 100%;
 }
 .product-price {
     background-color: #f1f1f1;
     opacity: .5;
     position: absolute;
-    bottom: 16px;
+    bottom: 85px;
 }
