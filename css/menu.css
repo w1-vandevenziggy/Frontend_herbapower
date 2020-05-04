@@ -39,15 +39,23 @@ body
 {
     background-color: #d0e6c2;
 }
+.menu__hamburger
+{
+    display: none !important;
+}
+.menu__hamburgerpreset
+{
+    width: 100px;
+    background-color: #c5e0b3;
+    height: 50px;
+    display: none;
+}
 
 
 /* Mobile M Mediaquery */
 
 @media only screen and (max-width: 600px) 
 {
-    body {
-        background-color: black;
-    }
     .menu ul
     {
         padding: 0;
@@ -55,6 +63,7 @@ body
         position: fixed;
         top: 0;
         z-index: 1;
+        left: -100%;
     }
     .menu a
     {
@@ -69,7 +78,19 @@ body
     {
         background-color: #A8D08D;
     }
-    
+    .menu__hamburger
+    {
+        display: inline-block !important;
+        height: 5px;
+    }
+    .header__logo
+    {
+        display: none;
+    }
+    .menu__hamburgerpreset
+    {
+        display: block !important;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
