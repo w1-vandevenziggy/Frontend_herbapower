@@ -1,21 +1,22 @@
 .product-container {
-    margin: 150px auto;
+    margin: 100px auto;
     display: flex;
     background-color: black;
-    width: 80%;
+    width: 85%;
 }
 .product-item {
     background-color: #f1f1f1;
-    margin: 15px auto;
-    width: 300px;
-    height: 400px;
+    margin: 10px auto;
+    width: 23%;
+    height: 320px;
     font-size: 30px;
 }
-.product-price {
-    background-color: white;
-    opacity: .5;
-
+.product-image {
+    width: 245px;
 }
-img {
-    width: 250px;
+.product-price {
+    background-color: #f1f1f1;
+    opacity: .5;
+    position: absolute;
+    bottom: 16px;
 }
